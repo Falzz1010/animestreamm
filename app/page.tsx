@@ -7,7 +7,7 @@ import Link from "next/link"
 import { getPopularAnime, getRecentEpisodes, getTopAiring } from "@/lib/api"
 import { HeroSection } from "@/components/HeroSection"
 import { AnimatedCard } from "@/components/AnimatedCard"
-import { Skeleton } from "@/components/ui/skeleton"
+import { Skeleton } from  "@/components/ui/skeleton"
 
 function CardSkeleton() {
   return (
