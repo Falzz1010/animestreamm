@@ -9,7 +9,7 @@ import { HeroSection } from "@/components/HeroSection"
 import { AnimatedCard } from "@/components/AnimatedCard"
 import { Skeleton } from  "@/components/ui/skeleton"
 
-function CardSkeleton() {
+function CardSkeleton() { 
   return (
     <Card className="overflow-hidden transition-all hover:shadow-lg dark:hover:shadow-primary/20">
       <div className="relative aspect-[2/3]">
